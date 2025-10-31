@@ -9,15 +9,17 @@
     allowedDepartments: [ Security, Command ]
   - type: Sprite
     sprite: _HL/Objects/BorgArmor/physarmor/borglightarmor.rsi
+    layers:
+      - map: [ "BORGARMOR" ]
   - type: Clothing
     sprite: _HL/Objects/BorgArmor/physarmor/defaultarmor.rsi
     clothingVisuals:
-      armor:
+      BORGARMOR:
       - state: on-equipped-BORGARMOR
         shader: unshaded
     quickEquip: false # Has to be put on for borgs by someone else
     slots:
-    - armor # No free NFSD tier armor for anyone who prints it.
+    - BORGARMOR # No free NFSD tier armor for anyone who prints it.
   - type: ExplosionResistance
     damageCoefficient: 0.4
   - type: Armor
