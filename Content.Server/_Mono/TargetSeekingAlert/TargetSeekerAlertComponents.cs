@@ -8,13 +8,13 @@ using Robust.Shared.Audio;
 namespace Content.Server.Mono.TargetSeekingAlert;
 
 /// <summary>
-///     Component for things that alert whether their grid is being tracked by something with a <see cref="TargetSeekingComponent"/>. 
+///     Component for things that alert whether their grid is being tracked by something with a <see cref="TargetSeekingComponent"/>.
 /// </summary>
 [RegisterComponent]
 public sealed partial class TargetSeekerAlertComponent : Component
 {
     /// <summary>
-    ///     Sound played when a target initially starts tracking this entity. 
+    ///     Sound played when a target initially starts tracking this entity.
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public SoundSpecifier? TargetGainSound = null;
@@ -27,12 +27,12 @@ public sealed partial class TargetSeekerAlertComponent : Component
     public List<TargetSeekerAlertSetting> DistanceAlertSettings = new();
 
     /// <summary>
-    ///     The audio entity playing from <see cref="DistanceAlertSettings"/>. 
+    ///     The audio entity playing from <see cref="DistanceAlertSettings"/>.
     /// </summary>
     public EntityUid? Audio = null;
 
     /// <summary>
-    ///     The key of the sound specified in <see cref="DistanceAlertSounds"/> currently playing. 
+    ///     The key of the sound specified in <see cref="DistanceAlertSounds"/> currently playing.
     /// </summary>
     // This isn't the most amazing solution but it's necessary to prevent spamming the sound. GetHashCode is a bit overkill and it might(?) not always work either.
     [DataField, ViewVariables(VVAccess.ReadOnly)]

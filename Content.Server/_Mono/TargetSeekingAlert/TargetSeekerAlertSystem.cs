@@ -12,7 +12,7 @@ using Robust.Shared.Map.Components;
 namespace Content.Server.Mono.TargetSeekingAlert;
 
 /// <summary>
-///     Handles logic for things that make alerts for entities with <see cref="TargetSeekingComponent"/>. 
+///     Handles logic for things that make alerts for entities with <see cref="TargetSeekingComponent"/>.
 /// </summary>
 
 // I really wonder what might unexpectedly happen when you put a target-seeker-alerter on a planetmap, since those count as grids.

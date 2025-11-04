@@ -67,7 +67,7 @@ public sealed partial class RadarBlipSystem : EntitySystem
                 // This prevents blips from showing on radars that are on different maps
                 if (blipXform.MapID != radarMapId)
                     continue;
-                
+
                 var blipGrid = _xform.GetGrid(blipUid);
 
                 // if (HasComp<CircularShieldRadarComponent>(blipUid))
