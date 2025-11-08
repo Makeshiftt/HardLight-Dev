@@ -1220,7 +1220,6 @@ entities:
     components:
     - type: Transform
       pos: -0.5,-1.5
-      pos: -0.5,-1.5
       parent: 1
   - uid: 32
     components:
