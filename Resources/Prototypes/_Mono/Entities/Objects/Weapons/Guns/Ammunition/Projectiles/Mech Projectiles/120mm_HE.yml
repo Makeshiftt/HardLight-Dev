@@ -10,6 +10,7 @@
         Piercing: 3000
         Blunt: 5000
         Structural: 3000
+  - type: ShipWeaponProjectile
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: HardBomb

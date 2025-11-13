@@ -8,6 +8,7 @@
     damage:
       types:
         Piercing: 250
+  - type: ShipWeaponProjectile
   - type: RadarBlip
     scale: 0.5
     visibleFromOtherGrids: true
