@@ -21,7 +21,7 @@ public abstract class SharedStationRecordsSystem : EntitySystem
         // Use TryGetNetEntity to avoid errors when the origin station entity is deleted/invalid
         if (!TryGetNetEntity(input.OriginStation, out var netEntity))
             netEntity = NetEntity.Invalid;
-        
+
         return (netEntity.Value, input.Id);
     }
 
