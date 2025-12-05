@@ -124,8 +124,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialLightShipWeaponFrame
-  name: light ship weapon frame
-  description: A machine frame for a light ship weapon.
+  name: light ship structure frame
+  description: A machine frame for a light ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -159,8 +159,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialLightShipWeaponServo
-  name: light ship weapon servo
-  description: A machine servo for a light ship weapon.
+  name: light ship structure servo
+  description: A machine servo for a light ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -194,8 +194,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialLightShipWeaponInternal
-  name: light ship weapon internal
-  description: A machine internal for a light ship weapon.
+  name: light ship structure internal
+  description: A machine internal for a light ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -229,8 +229,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialMediumShipWeaponFrame
-  name: medium ship weapon frame
-  description: A machine frame for a medium ship weapon.
+  name: medium ship structure frame
+  description: A machine frame for a medium ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -264,8 +264,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialMediumShipWeaponServo
-  name: medium ship weapon servo
-  description: A machine servo for a medium ship weapon.
+  name: medium ship structure servo
+  description: A machine servo for a medium ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -299,8 +299,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialMediumShipWeaponInternal
-  name: medium ship weapon internal
-  description: A machine internal for a medium ship weapon.
+  name: medium ship structure internal
+  description: A machine internal for a medium ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -334,8 +334,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHeavyShipWeaponFrame
-  name: heavy ship weapon frame
-  description: A machine frame for a heavy ship weapon.
+  name: heavy ship structure frame
+  description: A machine frame for a heavy ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -369,8 +369,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHeavyShipWeaponServo
-  name: heavy ship weapon servo
-  description: A machine servo for a heavy ship weapon.
+  name: heavy ship structure servo
+  description: A machine servo for a heavy ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -404,8 +404,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialHeavyShipWeaponInternal
-  name: heavy ship weapon internal
-  description: A machine internal for a heavy ship weapon.
+  name: heavy ship structure internal
+  description: A machine internal for a heavy ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -439,8 +439,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCapitalShipWeaponFrame
-  name: capital ship weapon frame
-  description: A machine frame for a capital ship weapon.
+  name: capital ship structure frame
+  description: A machine frame for a capital ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -474,8 +474,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCapitalShipWeaponServo
-  name: capital ship weapon servo
-  description: A machine servo for acapital ship weapon.
+  name: capital ship structure servo
+  description: A machine servo for acapital ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
@@ -509,8 +509,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCapitalShipWeaponInternal
-  name: capital ship weapon internal
-  description: A machine internal for a capital ship weapon.
+  name: capital ship structure internal
+  description: A machine internal for a capital ship structure.
   suffix: Full
   components:
   - type: ConstructionMaterials # Frontier
