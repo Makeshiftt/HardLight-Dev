@@ -306,6 +306,10 @@
 - type: Tag
   id: BorgWearable
 
+# Peregrine
+- type: Tag
+  id: MagazineRailgunTag
+
 #bolts
 - type: Tag
   id: Boltcart
@@ -324,8 +328,6 @@
 
 - type: Tag
   id: TiderAnvilParts
-
-#unflatpackable
 
 - type: Tag
   id: UnFlatpackable
