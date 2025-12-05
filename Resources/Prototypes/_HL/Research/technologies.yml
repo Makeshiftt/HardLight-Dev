@@ -107,8 +107,8 @@
   id: ShuttleWeaponMaterials
   name: research-technology-shuttle-weapon-materials
   icon:
-    sprite: _Mono/Objects/ShuttleWeapons/charon.rsi
-    state: icon
+    sprite: _HL/Logo/shuttle_armament_research_t1.rsi
+    state: T1
   discipline: Arsenal
   tier: 1
   cost: 10000
