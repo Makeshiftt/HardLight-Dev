@@ -5,15 +5,15 @@
   playTimeTracker: JobMedicalQuadBorg
   requirements:
     - !type:OverallPlaytimeRequirement
-      min: 21600 #6 hrs floof
+      time: 21600 #6 hrs floof
     - !type:DepartmentTimeRequirement
       department: Medical
-      min: 3600 #1 hrs floof
+      time: 3600 #1 hrs floof
   canBeAntag: false
   icon: JobIconMedicalBorg
   supervisors: job-supervisors-cmo
   jobEntity: PlayerBorgQuadmed
-  
+
 - type: job
   id: ServiceQuadBorg
   name: job-name-service-quadborg
@@ -21,12 +21,12 @@
   playTimeTracker: JobServiceQuadBorg
   requirements:
     - !type:OverallPlaytimeRequirement
-      min: 21600 #6 hrs floof
+      time: 21600 #6 hrs floof
   canBeAntag: false
   icon: JobIconServiceBorg
   supervisors: job-supervisors-hop
   jobEntity: PlayerBorgQuadserv
-  
+
 - type: job
   id: SalvageQuadBorg
   name: job-name-salvage-quadborg
@@ -34,15 +34,15 @@
   playTimeTracker: JobSalvageQuadBorg
   requirements:
     - !type:OverallPlaytimeRequirement
-      min: 21600 #6 hrs floof
+      time: 21600 #6 hrs floof
     - !type:DepartmentTimeRequirement
       department: Cargo
-      min: 3600 #1 hrs floof
+      time: 3600 #1 hrs floof
   canBeAntag: false
   icon: JobIconSalvageBorg
   supervisors: job-supervisors-Quartermaster
   jobEntity: PlayerBorgQuadSalv
-  
+
 - type: job
   id: SecurityQuadBorg
   name: job-name-security-quadborg
@@ -50,10 +50,10 @@
   playTimeTracker: JobSecurityQuadBorg
   requirements:
     - !type:OverallPlaytimeRequirement
-      min: 21600 #6 hrs floof
+      time: 21600 #6 hrs floof
     - !type:DepartmentTimeRequirement
       department: Security
-      min: 3600 #1 hrs floof
+      time: 3600 #1 hrs floof
   canBeAntag: false
   icon: JobIconSecurityBorg
   supervisors: job-supervisors-hos
@@ -66,10 +66,10 @@
   playTimeTracker: JobEngineeringQuadBorg
   requirements:
     - !type:OverallPlaytimeRequirement
-      min: 21600 #6 hrs floof
+      time: 21600 #6 hrs floof
     - !type:DepartmentTimeRequirement
       department: Engineering
-      min: 3600 #1 hrs floof
+      time: 3600 #1 hrs floof
   canBeAntag: false
   icon: JobIconEngineeringBorg
   supervisors: job-supervisors-ChiefEngineer
