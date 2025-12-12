@@ -184,7 +184,6 @@
   - type: NoiseDrivenDebrisSelector
     noiseChannel: Wreck
     debrisTable:
-      orGroup: wreck
     - id: NFWreckDebrisBrassLarge
       prob: 0.3
       orGroup: wreck
