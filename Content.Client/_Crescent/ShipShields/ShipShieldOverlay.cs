@@ -25,6 +25,7 @@ public sealed class ShipShieldOverlay : Overlay
     private readonly IEntityManager _entManager;
     private readonly FixtureSystem _fixture;
     private readonly SharedPhysicsSystem _physics;
+    private static readonly ProtoId<ShaderPrototype> UnshadedShaderId = "unshaded";
     private readonly ShaderInstance _unshadedShader;
     private readonly List<DrawVertexUV2D> _verts = new(128); // Mono
 
@@ -37,7 +38,7 @@ public sealed class ShipShieldOverlay : Overlay
         _fixture = _entManager.EntitySysManager.GetEntitySystem<FixtureSystem>();
     _physics = _entManager.EntitySysManager.GetEntitySystem<SharedPhysicsSystem>();
 
-        _unshadedShader = prototypeManager.Index<ShaderPrototype>("unshaded").Instance();
+        _unshadedShader = prototypeManager.Index(UnshadedShaderId).Instance();
 
         ZIndex = 8;
     }

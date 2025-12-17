@@ -121,6 +121,7 @@ namespace Content.Client.Lobby.UI
         private readonly LobbyUIController _controller;
         private readonly EntityWhitelistSystem _whitelist; // Frontier
         private readonly SpriteSystem _sprite;
+        private const string NoneCompanyId = "None";
 
         private FlavorText.FlavorText? _flavorText;
         private TextEdit? _flavorTextEdit;
@@ -565,8 +566,8 @@ namespace Content.Client.Lobby.UI
                 .ToList();
             companies.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.Ordinal));
 
-            // Make sure "None" is first in the list
-            var noneIndex = companies.FindIndex(c => c.ID == "None");
+            // Make sure None is first in the list
+            var noneIndex = companies.FindIndex(c => c.ID == NoneCompanyId);
             if (noneIndex != -1)
             {
                 var none = companies[noneIndex];
@@ -2315,8 +2316,8 @@ namespace Content.Client.Lobby.UI
                 .ToList();
             companies.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.Ordinal));
 
-            // Make sure "None" is first in the list
-            var noneIndex = companies.FindIndex(c => c.ID == "None");
+            // Make sure None is first in the list
+            var noneIndex = companies.FindIndex(c => c.ID == NoneCompanyId);
             if (noneIndex != -1)
             {
                 var none = companies[noneIndex];
