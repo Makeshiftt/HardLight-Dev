@@ -1992,7 +1992,7 @@
     collection: FootstepTile
   itemDrop: FloorTileItemXenoSteel
   heatCapacity: 10000
-  allowRotationMirror: true
+  #allowRotationMirror: true
 
 - type: tile
   id: FloorXenoSteelCorner
@@ -2005,7 +2005,7 @@
     collection: FootstepTile
   itemDrop: FloorTileItemXenoSteelCorner
   heatCapacity: 10000
-  allowRotationMirror: true
+  #allowRotationMirror: true
 
 - type: tile
   id: FloorDarkSquiggly
@@ -2024,7 +2024,7 @@
     collection: FootstepFloor
   itemDrop: FloorTileItemDarkSquiggly
   heatCapacity: 10000
-  allowRotationMirror: true
+  #allowRotationMirror: true
 
 - type: tile
   id: FloorXenoMaint
